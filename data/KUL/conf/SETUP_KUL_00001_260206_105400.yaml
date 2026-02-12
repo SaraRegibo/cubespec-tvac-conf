@@ -2,6 +2,8 @@
 
 Setup:
     site_id: KUL
+    sut:
+        id: stm
     gse:
         dt8874:
             device: class//egse.diligent.measurpoint.dt8874.dt8874.Dt8874Proxy
@@ -158,9 +160,8 @@ Setup:
                     interval: 1
                 delay: 1
             device_name: DAQ6510
+            device_id: DAQ6510
             device: class//egse.tempcontrol.keithley.daq6510.DAQ6510Proxy
-    sut:
-        id: stm
     telemetry:
         dictionary: pandas//../../common/telemetry/tm-dictionary_v1.csv
         dictionary_kwargs:
