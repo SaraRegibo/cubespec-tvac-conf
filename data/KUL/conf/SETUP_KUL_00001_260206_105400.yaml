@@ -201,4 +201,4 @@ Setup:
             separator: ;
     history:
         0:  Initial setup for KUL
-        1:  Incl.TM dictionary + MEASURpoint + PSUs + DAQ6510
+        1:  Incl.TM dictionary + MEASURpoint + PSUs + DAQ6510 + SG Readout
