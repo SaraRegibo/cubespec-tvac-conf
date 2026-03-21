@@ -36,9 +36,9 @@ setup = load_setup()  # Load the latest (i.e. with the highest identifier) from 
 
 ```python
 from egse.setup import load_setup, submit_setup
-setup = load_setup  # Load the latest (i.e. with the highest identifier) from the $CUBESPEC_CONF_DATA_LOCATION folder
+setup = load_setup()  # Load the latest (i.e. with the highest identifier) from the $CUBESPEC_CONF_DATA_LOCATION folder
 
-# Modify an entry
+# Modify an entry (code for a fictitious setup file)
 setup.branch.subbranch.leaf = object
 
 # Add a new entry
